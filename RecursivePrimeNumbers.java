@@ -7,10 +7,6 @@ public class RecursivePrimeNumbers {
 
     // Recursive function to find prime numbers up to n
     public static ArrayList<Integer> findPrimesRecursive(int n) {
-        if (n <= 1) {
-            System.err.println("N must be greater than 1.");
-            return new ArrayList<>(); // Return an empty list
-        }
         return findPrimesRecursive(n, 2, new ArrayList<>());
     }
 
@@ -65,7 +61,7 @@ public class RecursivePrimeNumbers {
                     continue;
                 }
 
-                if (n == 1) {
+                if (n <= 1) {
                     System.out.println("N must be greater than 1.");
                     continue; // Skip printing the list and continue the loop
                 }
