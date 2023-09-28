@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Scanner;
 
 public class LinearPrimeNumbers {
-// Function to find prime numbers up to n using a linear approach
+    // Function to find prime numbers up to n using a linear approach
     public static List<Integer> findPrimesLinear(int n) {
         List<Integer> primes = new ArrayList<>();
         if (n < 2) {
-            return primes; // No primes less than 2
+            throw new IllegalArgumentException("N must be greater than 1.");
         }
         for (int current = 2; current <= n; current++) {
             if (isPrime(current)) {
@@ -18,7 +18,7 @@ public class LinearPrimeNumbers {
         return primes;
     }
 
-// Helper function to check if a number is prime
+    // Helper function to check if a number is prime
     private static boolean isPrime(int num) {
         if (num <= 2) {
             return num == 2; // 2 is a prime number
@@ -37,14 +37,9 @@ public class LinearPrimeNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char exitKey = 'q';
-        boolean shouldExit = false;
 
         do {
             try {
-                if (shouldExit) {
-                    break; // Exit the loop if 'q' is pressed
-                }
-
                 System.out.print("Enter a number (or press '" + exitKey + "' to quit): ");
                 int n = scanner.nextInt();
 
@@ -54,15 +49,17 @@ public class LinearPrimeNumbers {
                     System.out.print(prime + " ");
                 }
                 System.out.println();
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage()); // Print only the error message
             } catch (InputMismatchException e) {
                 String input = scanner.next();
                 if (input.length() == 1 && input.charAt(0) == exitKey) {
-                    shouldExit = true; // Set shouldExit to true if 'q' was pressed
+                    break; // Exit the loop if 'q' was pressed
                 } else {
                     System.out.println("Invalid input. Please enter a valid number.");
                 }
             }
-        } while (shouldExit==false);
+        } while (true);
 
         System.out.println("Program closed.");
         scanner.close();
