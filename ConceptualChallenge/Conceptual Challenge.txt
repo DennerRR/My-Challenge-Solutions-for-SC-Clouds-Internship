@@ -1,0 +1,59 @@
+Diferença entre as camadas 2 e 3 do modelo OSI e protocolos de endereçamento:
+
+Camada 2 - Data Link Layer:
+
+    A camada 2 do modelo OSI é popularmente conhecida como camada de enlace. Ela é responsável pela comunicação de dispositivos em uma rede local (LAN).
+Realiza o endereçamento físico de dispositivos em uma rede local. Os protocolos nessa camada incluem Ethernet, Wi-Fi e PPP.
+
+
+- Camada 3 - Network Layer:
+
+    A camada 3 é popularmente conhecida como camada de rede. É responsável pela comunicação de dispositivos em redes diferentes.
+Utiliza endereços IP para realizar o roteamento de pacotes de dados em uma rede. Os protocolos utilizados nessa camada incluem RIP, OSPF e BGP.
+Diferença entre a adoção de uma solução proprietária, como o sistema operacional Windows, e a adoção de uma solução Open Source, como o sistema operacional Ubuntu:
+
+WINDOWS :
+
+- Pontos Positivos:
+
+Facilidade de uso devido à interface simples e intuitiva, tornando o Windows extremamente popular.
+Ampla compatibilidade de software comercial.
+Suporte técnico abrangente fornecido pela Microsoft.
+
+
+- Pontos Negativos:
+
+Custos associados a licenças, como o Pacote Office.
+Código-fonte não é aberto, o que limita a personalização e transparência.
+Vulnerável a ataques devido à sua popularidade, exigindo atualizações frequentes de segurança.
+
+
+UBUNTU :
+
+- Pontos Positivos:
+
+Gratuito e de código aberto, reduzindo custos de licença.
+Comunidade de código aberto oferece suporte técnico e atualizações.
+Amplamente personalizável e adequado para desenvolvimento e servidores.
+
+Pontos Negativos:
+
+Pode não ser tão amigável para iniciantes em computação.
+Alguns aplicativos comerciais podem não ter suporte.
+A curva de aprendizado pode ser mais íngreme para aqueles acostumados com o Windows.
+
+
+-Projeto Open Source:
+
+Um projeto Open Source é um projeto de software cujo código-fonte é disponibilizado publicamente para visualização, modificação e distribuição.
+
+-Adoção por Empresas:
+
+Empresas podem adotar tecnologias Open Source de várias maneiras, incluindo o uso de sistemas operacionais, bancos de dados, ferramentas de desenvolvimento, etc.
+Isso pode resultar em economia de custos, maior flexibilidade e independência de fornecedores.
+As empresas podem contribuir para projetos Open Source ou criar seus próprios projetos para atender às suas necessidades específicas.
+
+-Impactos da Adoção:
+
+A adoção de tecnologias Open Source pode proporcionar maior transparência, segurança e personalização.
+No entanto, também pode exigir mais responsabilidade na manutenção e suporte, pois a empresa não depende de um único fornecedor.
