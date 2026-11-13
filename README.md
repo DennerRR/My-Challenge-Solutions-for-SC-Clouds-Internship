@@ -1,4 +1,4 @@
-</h1> My-Challenge-Solutions-for-SC-Clouds-Internship</h1>
+# Desafios do processo seletivo de estágio da SC Clouds
 
 Repositório dedicado a realizar os desafios técnicos e conceituais do processo seletivo da SC Clouds.
 
